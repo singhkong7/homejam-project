@@ -1,0 +1,59 @@
+.review-item {
+    width: 22vw;
+    display: flex;
+    flex-direction: column;
+    height: 370px;
+    align-items: center;
+    position: relative;
+    margin:10px;
+    border-radius: 15px;
+    border:2px solid yellow;
+    
+  
+    .image-section
+    {
+        margin-left: 20px;
+        margin-top: 5px;
+        .image-review {
+            height: 80px;
+            width:80px;
+            border: 1px solid white;
+            border-radius: 50%;
+            background-size: cover;
+            background-position: center;
+            margin-left: 5px;
+            margin-bottom: 5px;
+          }
+    }
+    
+  
+    .collection-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 18px;
+        .h1 {
+            margin-bottom: 15px;
+            color: white;
+            font-size: 20px;
+            }
+            .place
+            {
+                margin-top: -8px;
+                color: yellow;
+            }
+            .content
+            {
+                margin-top: 5px;
+                color: white;
+            }
+            .flat
+            {
+                background-size: cover;
+                background-position: center;
+                height: 30px;
+                width: 30px;
+            }
+            
+        }
+}

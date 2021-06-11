@@ -1,0 +1,115 @@
+.section
+{
+    margin:20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+    .like
+    {
+        margin-left:20px;
+        height: 250px;
+        width: 250px;
+        border:2px solid grey;
+        border-radius: 50%;
+        border-bottom-color:hotpink;
+        border-right-color: hotpink;
+        border-top-color: hotpink;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        h2
+        {
+            color:blue;
+        }
+        h1
+        {
+            color:white;
+        }
+        h3
+        {
+            color:gray;
+        }
+        
+    }
+    .label1
+    {
+        margin-left:20px;
+        height: 250px;
+        width: 250px;
+        border:2px solid grey;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        h2
+        {
+            color:grey;
+        }
+        h1
+        {
+            color:white;
+        }
+        h3
+        {
+            color:gray;
+        }
+        
+    }
+    .label2
+    {
+        margin-left:20px;
+        height: 250px;
+        width: 250px;
+        border:2px solid grey;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        h2
+        {
+            color:grey;
+        }
+        h1
+        {
+            color:white;
+        }
+        h3
+        {
+            color:gray;
+        }
+        
+    }
+    .label3
+    {
+        margin-left:20px;
+        height: 250px;
+        width: 250px;
+        border:2px solid grey;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        h2
+        {
+            color:gray;
+        }
+        h1
+        {
+            color:white;
+        }
+        h3
+        {
+            color:gray;
+        }
+        
+    }
+}
